@@ -26,7 +26,8 @@
 }
 
 .contact-col p {
-  max-width: 450px;
+  text-align: justify;
+  text-justify: inter-word;
   line-height: 1.3;
 }
 

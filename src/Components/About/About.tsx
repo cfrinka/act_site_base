@@ -1,5 +1,5 @@
 import "./About.css";
-import about_img from "../../assets/about.png";
+import about_img from "../../assets/startup.jpg";
 import play_icon from "../../assets/play-icon.png";
 
 interface AboutProps {
@@ -18,24 +18,26 @@ const About = ({ setPlayerState }: AboutProps) => {
         />
       </div>
       <div className="about-right">
-        <h3>Enim enim</h3>
-        <h2>Ea aute do enim aliqua consequat.</h2>
+        <h2>A Jornada da ACT: De Inovação a Liderança no Setor</h2>
         <p>
-          Amet exercitation reprehenderit id officia sint. Exercitation elit non
-          aute exercitation duis in mollit proident voluptate est. Enim mollit
-          tempor laboris aliqua voluptate sint adipisicing. Qui ea dolore est
-          adipisicing sint in.
+          A ACT foi fundada em 2010 com a missão de revolucionar a forma como as
+          empresas abordam a inovação e a tecnologia. Desde o início, nossos
+          fundadores acreditaram que o sucesso empresarial dependia de soluções
+          personalizadas e estratégias bem planejadas. Com uma pequena equipe de
+          visionários, a ACT começou a oferecer serviços de consultoria e
+          implementação de tecnologias avançadas, rapidamente conquistando a
+          confiança de diversas empresas. Ao longo dos anos, a ACT expandiu suas
+          operações, mantendo-se sempre na vanguarda das inovações tecnológicas.
         </p>
         <p>
-          Id ex id nisi nulla sint dolore aute incididunt reprehenderit aute
-          amet ut. Incididunt tempor occaecat deserunt anim id enim ad est
-          incididunt esse reprehenderit exercitation. Reprehenderit commodo
-          aliqua.
-        </p>
-        <p>
-          Laborum occaecat aute voluptate do occaecat ullamco. Qui magna velit
-          anim veniam aute aute sit minim est duis. Cupidatat dolore laborum
-          culpa sint est do eiusmod ipsum labore sunt officia aute ad irure.
+          Hoje, a ACT é reconhecida como uma líder no setor, atendendo a uma
+          vasta gama de indústrias e empresas de todos os tamanhos. Nossa
+          equipe, composta por especialistas altamente qualificados, continua a
+          desenvolver soluções inovadoras que ajudam nossos clientes a enfrentar
+          desafios complexos e a alcançar seus objetivos de negócios. Com um
+          compromisso inabalável com a excelência e a satisfação do cliente, a
+          ACT continua a crescer e a prosperar, guiando empresas rumo a um
+          futuro mais eficiente e bem-sucedido.
         </p>
       </div>
     </div>

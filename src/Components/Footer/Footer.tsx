@@ -1,12 +1,26 @@
 import "./Footer.css";
+import linkedin from "../../assets/linkedin.png";
+import twitter from "../../assets/twitter.png";
+import instagram from "../../assets/instagram.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <p>© Edusity. All rights reserved.</p>
+      <p>© ACT Soluções. Todos os direitos reservados.</p>
+      <div className="socials">
+        <a href="">
+          <img src={linkedin} alt="" />
+        </a>
+        <a href="">
+          <img src={twitter} alt="" />
+        </a>
+        <a href="">
+          <img src={instagram} alt="" />
+        </a>
+      </div>
       <ul>
-        <li>Terms of Service</li>
-        <li>Privacy Policy</li>
+        <li>Termos de Serviço</li>
+        <li>Política de Privacidade</li>
       </ul>
     </div>
   );

@@ -13,6 +13,15 @@
   margin-left: 20px;
 }
 
+.socials {
+  display: flex;
+  gap: 25px;
+}
+
+.socials img {
+  width: 25px;
+}
+
 /* ----------- media query --------------- */
 
 @media (max-width: 600px) {

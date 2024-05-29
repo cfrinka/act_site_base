@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./Contact.css";
-import message_icon from "../../assets/msg-icon.png";
 import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
@@ -12,7 +11,7 @@ const Contact = () => {
 
   const onSubmit = async (event: any) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Enviando....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "715bef11-d70d-48e4-bdf5-0e10be8fc7bd");
@@ -25,7 +24,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Mensagem enviada com sucesso.");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -36,13 +35,15 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="contact-col">
-        <h3>
-          Send us a message <img src={message_icon} alt="" />
-        </h3>
+        <h3>Descubra as Soluções da ACT: Envie Sua Mensagem Agora!</h3>
         <p>
-          Nisi aliquip ipsum mollit ullamco nisi do amet nostrud culpa mollit.
-          Enim qui velit nostrud commodo id enim sint deserunt. Id nulla laborum
-          enim et ad eiusmod consectetur eiusmod sit ipsum sit velit mollit in.
+          Você busca soluções inovadoras para transformar seu negócio? A ACT é a
+          parceira ideal para levar sua empresa ao próximo nível. Com uma equipe
+          de especialistas e tecnologia de ponta, oferecemos estratégias
+          personalizadas para impulsionar seus resultados. Envie uma mensagem
+          para nós e descubra como podemos ajudar seu negócio a crescer de forma
+          sustentável e eficaz. Não perca tempo, fale com nossos especialistas e
+          comece a transformar seu futuro hoje mesmo!
         </p>
         <ul>
           <li>
@@ -62,29 +63,29 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label>Your Name</label>
+          <label>Nome</label>
           <input
             type="text"
             name="name"
-            placeholder="Enter your name"
+            placeholder="Digite seu nome"
             required
           />
-          <label>Phone Number</label>
+          <label>Telefone</label>
           <input
             type="tel"
             name="phone"
-            placeholder="Enter your phone number"
+            placeholder="Digite seu telefone com DDD"
             required
           />
-          <label>Write your message</label>
+          <label>Mensagem</label>
           <textarea
             name="message"
             rows={6}
-            placeholder="Enter your message"
+            placeholder="Escreva sua mensagem"
             required
           />
           <button type="submit" className="btn dark-btn">
-            Submit now <img src={white_arrow} alt="" />
+            Enviar <img src={white_arrow} alt="" />
           </button>
         </form>
         <span>{result}</span>

@@ -1,12 +1,11 @@
 import { useState } from "react";
 import About from "./Components/About/About";
-import Campus from "./Components/Campus/Campus";
+import Team from "./Components/Team/Team";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
-import Programs from "./Components/Programs/Programs";
-import Testimonials from "./Components/Testimonials/Testimonials";
+import Solutions from "./Components/Solutions/Solutions";
 import Title from "./Components/Title/Title";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
 
@@ -18,14 +17,13 @@ const App = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subtitle="Our Program" title="What We Offer" />
-        <Programs />
+        <Title subtitle="Como podemos ajudar" title="Soluções" />
+        <Solutions />
+        <Title subtitle="Nossa história" title="QUEM SOMOS" />
         <About setPlayerState={setPlayerState} />
-        <Title subtitle="Campus Photos" title="Gallery" />
-        <Campus />
-        <Title subtitle="What Students Say" title="TESTIMONIALS" />
-        <Testimonials />
-        <Title subtitle="Get in Touch" title="Contact Us" />
+        <Title subtitle="Conheça nossos talentos" title="Equipe" />
+        <Team />
+        <Title subtitle="Encontre sua solução" title="Fale Conosco" />
         <Contact />
         <Footer />
       </div>
