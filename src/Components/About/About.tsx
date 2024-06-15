@@ -18,20 +18,21 @@ const About = ({ setPlayerState }: AboutProps) => {
         />
       </div>
       <div className="about-right">
-        <h2>A Jornada da ACT: De Inovação a Liderança no Setor</h2>
+        <h2>A Jornada da ACT Code: De Inovação a Liderança no Setor</h2>
         <p>
-          A ACT foi fundada em 2010 com a missão de revolucionar a forma como as
-          empresas abordam a inovação e a tecnologia. Desde o início, nossos
-          fundadores acreditaram que o sucesso empresarial dependia de soluções
-          personalizadas e estratégias bem planejadas. Com uma pequena equipe de
-          visionários, a ACT começou a oferecer serviços de consultoria e
-          implementação de tecnologias avançadas, rapidamente conquistando a
-          confiança de diversas empresas. Ao longo dos anos, a ACT expandiu suas
-          operações, mantendo-se sempre na vanguarda das inovações tecnológicas.
+          A ACT Code foi fundada em 2024 com a missão de revolucionar a forma
+          como as empresas abordam a inovação e a tecnologia. Desde o início,
+          nossos fundadores acreditaram que o sucesso empresarial dependia de
+          soluções personalizadas e estratégias bem planejadas. Com uma pequena
+          equipe de visionários, a ACT começou a oferecer serviços de
+          consultoria e implementação de tecnologias avançadas, rapidamente
+          conquistando a confiança de diversas empresas. Ao longo dos anos, a
+          ACT expandiu suas operações, mantendo-se sempre na vanguarda das
+          inovações tecnológicas.
         </p>
         <p>
-          Hoje, a ACT é reconhecida como uma líder no setor, atendendo a uma
-          vasta gama de indústrias e empresas de todos os tamanhos. Nossa
+          Hoje, a ACT Code é reconhecida como uma líder no setor, atendendo a
+          uma vasta gama de indústrias e empresas de todos os tamanhos. Nossa
           equipe, composta por especialistas altamente qualificados, continua a
           desenvolver soluções inovadoras que ajudam nossos clientes a enfrentar
           desafios complexos e a alcançar seus objetivos de negócios. Com um

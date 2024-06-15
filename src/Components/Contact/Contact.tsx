@@ -2,7 +2,7 @@
 import "./Contact.css";
 import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
-import location_icon from "../../assets/location-icon.png";
+/* import location_icon from "../../assets/location-icon.png"; */
 import white_arrow from "../../assets/white-arrow.png";
 import { useState } from "react";
 
@@ -48,17 +48,17 @@ const Contact = () => {
         <ul>
           <li>
             <img src={mail_icon} alt="" />
-            e-mail@email.com
+            contato@actcode.com.br
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +55 11 99888-4556
+            +55 34 99256-5825
           </li>
-          <li>
+          {/* <li>
             <img src={location_icon} alt="" />
             Rua dos Amores, 123 Bairro dos Sonhos <br /> São Paulo - SP CEP
             01000-000
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="contact-col">

@@ -1,20 +1,20 @@
 import "./Footer.css";
-import linkedin from "../../assets/linkedin.png";
-import twitter from "../../assets/twitter.png";
+/* import linkedin from "../../assets/linkedin.png";
+import twitter from "../../assets/twitter.png"; */
 import instagram from "../../assets/instagram.png";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <p>© ACT Soluções. Todos os direitos reservados.</p>
+      <p>© ACT Code. Todos os direitos reservados.</p>
       <div className="socials">
-        <a href="">
+        {/* <a href="">
           <img src={linkedin} alt="" />
         </a>
         <a href="">
           <img src={twitter} alt="" />
-        </a>
-        <a href="">
+        </a> */}
+        <a href="https://www.instagram.com/act_code">
           <img src={instagram} alt="" />
         </a>
       </div>
