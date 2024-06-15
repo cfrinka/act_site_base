@@ -3,7 +3,7 @@ import analysis from "../../assets/analysis.png";
 import computer from "../../assets/computer.png";
 import apps from "../../assets/apps.jpg";
 import dashboard from "../../assets/dashboard.jpg";
-import financial from "../../assets/financial.jpg";
+import cloudComputing from "../../assets/cloudcomputing.jpg";
 import "./Solutions.css";
 
 const Solutions = () => {
@@ -19,7 +19,7 @@ const Solutions = () => {
       text: "Implementação de Sistemas de Business Intelligence",
     },
     {
-      image: financial,
+      image: cloudComputing,
       icon: computer,
       text: "Serviços de Cloud Computing",
     },
